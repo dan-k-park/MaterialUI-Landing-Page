@@ -4,6 +4,7 @@ import Background from './assets/bg.jpg';
 import Header from './components/Header';
 
 import { CssBaseline } from '@material-ui/core';
+import Places from './components/Places';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,6 +20,7 @@ export default function App() {
     <div className={classes.root}>
       <CssBaseline />
       <Header />
+      <Places />
     </div>
   )
 }
